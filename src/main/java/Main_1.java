@@ -6,9 +6,7 @@ import java.util.Scanner;
 public class Main_1 {
 
     public static void main(String[] args) {
-
         new Task_1_Resolver(System.in, System.out).solve();
-
     }
 
     public static class Task_1_Resolver {
@@ -26,7 +24,6 @@ public class Main_1 {
             writer.println(number.charAt(0) + " " + number.charAt(1));
             writer.flush();
             writer.close();
-
         }
     }
 }
